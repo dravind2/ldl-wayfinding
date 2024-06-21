@@ -1,0 +1,55 @@
+# Custom project environment
+wayfinding-env/
+
+# Virtual Environment
+venv/
+
+# Python compiled files and caches
+# Top level
+__pycache__/
+*.pyc
+# Nested directories
+*/__pycache__/
+*/*.pyc
+
+# Django-specific files
+*.log
+db.sqlite3
+/media/
+/static/
+
+# Secret configuration files
+secret.json
+
+# Compiled files and build directories for various programming languages
+*.class
+*.war
+*.ear
+*.jar
+*.db
+*.sqlite
+*.sqlite3
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor configurations
+.idea/
+.vscode/
+
+# Node.js related files
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+*.lock
+
+# Build output for frontend frameworks
+build/
+dist/
+
+# Log files
+*.log.*
